@@ -226,11 +226,3 @@ scripted model: `test_v3_refuses_give_up_after_finding_passages` passes, and
   `search_docs` without `planet` searches every page, would cut this down.
 - **Word mismatch in retrieval:** "diameter" does not match "radius". Adding
   simple synonyms to the query (size, radius, diameter, wide) would help BM25.
-
-## AI assistance
-
-I used an AI coding assistant (Claude) while building this project. It helped
-draft the code structure, the BM25 retrieval code, the tests and this README,
-and it helped run and read the trajectory logs. I reviewed the code, ran every
-task, and the results and failure analysis above come from the actual logged
-runs in `logs/`.
