@@ -1,0 +1,30 @@
+[
+  {
+    "id": "T1_compare_size",
+    "type": "comparison + calculation",
+    "task": "Which planet is wider, Jupiter or Saturn, and how many times wider is it? Use the sizes in the NASA pages.",
+    "expected": "Jupiter. NASA gives Jupiter's radius (43,440.7 miles, so diameter 86,881.4 miles) and Saturn's equatorial diameter (74,897 miles). Jupiter is about 1.16 times wider.",
+    "sources": ["https://science.nasa.gov/jupiter/facts/", "https://science.nasa.gov/saturn/facts/"]
+  },
+  {
+    "id": "T2_venus_kelvin",
+    "type": "unit conversion",
+    "task": "What is the surface temperature of Venus in kelvin?",
+    "expected": "About 872 F (467 C), which is about 740 K.",
+    "sources": ["https://science.nasa.gov/venus/facts/"]
+  },
+  {
+    "id": "T3_shortest_day",
+    "type": "multi-step lookup + calculation",
+    "task": "Which planet has the shortest day, and about how many of its days fit into one 24-hour Earth day?",
+    "expected": "Jupiter, 9.9 hours per day; 24 / 9.9 = about 2.4 Jupiter days.",
+    "sources": ["https://science.nasa.gov/jupiter/facts/"]
+  },
+  {
+    "id": "T4_partial_unanswerable",
+    "type": "partly unanswerable",
+    "task": "How many known moons does Neptune have, and how much did the Voyager 2 mission cost?",
+    "expected": "16 known moons. The NASA collection does not give Voyager 2's cost, so the agent should say so instead of guessing.",
+    "sources": ["https://science.nasa.gov/neptune/facts/"]
+  }
+]
